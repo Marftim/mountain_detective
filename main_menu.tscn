@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bmgfiserq6m4i"]
+
+[node name="Main menu" type="Node2D" unique_id=1682219454]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=816738968]
+position = Vector2(576, 324)
+
+[node name="Line2D" type="Line2D" parent="." unique_id=1432719591]
+points = PackedVector2Array(360, 368, 379, 475, 495, 432, 502, 324, 631, 306, 663, 375, 635, 484, 545, 460, 509, 428, 458, 329, 445.01, 325.3628, 425.58734, 319.92444, 408, 315, 381, 328, 364, 361, 442, 300, 425, 54, 512, 29, 602, 37, 598, 83, 581, 303, 587, 75, 419, 86, 514, 70, 508, 13)
