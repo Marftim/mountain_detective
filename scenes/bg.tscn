@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://hqi7awmuk6fm"]
+
+[ext_resource type="Script" uid="uid://dklpikoc3jlvd" path="res://scripts/bg.gd" id="1_dpp0m"]
+[ext_resource type="Texture2D" uid="uid://3fwjoaf5ox06" path="res://Legacy-Fantasy - High Forest 2.3/Background/Background.png" id="2_qd2e1"]
+
+[node name="BG" type="ParallaxBackground" unique_id=1041954818]
+script = ExtResource("1_dpp0m")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=2025266418]
+motion_scale = Vector2(0.2, 1)
+motion_mirroring = Vector2(1143.525, 0)
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer" unique_id=2131775511]
+position = Vector2(576.5, 320.5)
+scale = Vector2(2.3895833, 2.3566177)
+texture = ExtResource("2_qd2e1")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="." unique_id=757836855]
+motion_scale = Vector2(0.5, 1)
+motion_mirroring = Vector2(1114.995, 0)
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer2" unique_id=868993638]
+modulate = Color(0.9254902, 0.9098039, 0, 0.34509805)
+position = Vector2(1000.5, 142.25003)
+scale = Vector2(0.5979166, 1.0202205)
+texture = ExtResource("2_qd2e1")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="." unique_id=1111522564]
+motion_mirroring = Vector2(1141.505, 0)
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer3" unique_id=1965757568]
+modulate = Color(1, 0, 1, 0.37254903)
+position = Vector2(289, 225)
+scale = Vector2(0.83750004, 0.85661775)
+texture = ExtResource("2_qd2e1")

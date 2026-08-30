@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://d36bs0t6vtfff"]
 
-[ext_resource type="Script" uid="uid://c1file8f4df3u" path="res://menu.gd" id="1_uubjt"]
+[ext_resource type="Script" uid="uid://c1file8f4df3u" path="res://scripts/menu.gd" id="1_uubjt"]
+[ext_resource type="PackedScene" uid="uid://hqi7awmuk6fm" path="res://scenes/bg.tscn" id="2_5yleq"]
 
 [node name="Menu" type="Node2D" unique_id=579431591]
 script = ExtResource("1_uubjt")
@@ -20,6 +21,8 @@ offset_right = 744.0
 offset_bottom = 445.0
 theme_override_font_sizes/font_size = 50
 text = "Exit"
+
+[node name="BG" parent="." unique_id=1041954818 instance=ExtResource("2_5yleq")]
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
