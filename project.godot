@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Альфа"
-run/main_scene="uid://bmgfiserq6m4i"
-config/features=PackedStringArray("4.6", "Forward Plus")
+run/main_scene="uid://d36bs0t6vtfff"
+config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
 [editor]
