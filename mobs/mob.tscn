@@ -1,10 +1,12 @@
 [gd_scene format=3 uid="uid://dnhqph5b3uxxi"]
 
 [ext_resource type="Texture2D" uid="uid://bdinyhsepneg7" path="res://Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/Hit-Sheet.png" id="1_nokgg"]
+[ext_resource type="Script" uid="uid://pm4aahds3aiu" path="res://mobs/mob.gd" id="1_p7hwu"]
 [ext_resource type="Texture2D" uid="uid://uev2v8kxgvw0" path="res://Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/Fly-Sheet.png" id="2_ubaqv"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jfba5"]
-height = 22.0
+radius = 79.0
+height = 158.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p11y5"]
 atlas = ExtResource("1_nokgg")
@@ -75,13 +77,25 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_g4v7s"]
+radius = 223.0807
+
 [node name="mob" type="CharacterBody2D" unique_id=1251703499]
+script = ExtResource("1_p7hwu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1842173275]
 shape = SubResource("CapsuleShape2D_jfba5")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2040474974]
+position = Vector2(-0.9999924, -2)
+scale = Vector2(3.34375, 2.8125)
 sprite_frames = SubResource("SpriteFrames_g4v7s")
 animation = &"fly"
 autoplay = "fly"
-frame_progress = 0.38384613
+frame_progress = 0.09504994
+
+[node name="Area2D" type="Area2D" parent="." unique_id=787803217]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1503803572]
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_g4v7s")
