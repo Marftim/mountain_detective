@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dawk00bnhj2gq"]
+
+[ext_resource type="Texture2D" uid="uid://ct4thcsm4y78" path="res://techures/Black_huina.jpg" id="1_xagfw"]
+
+[node name="BG_Menu" type="Node2D" unique_id=503310466]
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=564339285]
+
+[node name="BlackHuina" type="Sprite2D" parent="Parallax2D" unique_id=1843297299]
+position = Vector2(576, 324)
+texture = ExtResource("1_xagfw")
