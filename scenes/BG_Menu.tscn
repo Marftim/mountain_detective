@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dawk00bnhj2gq"]
 
-[ext_resource type="Texture2D" uid="uid://ct4thcsm4y78" path="res://techures/Black_huina.jpg" id="1_xagfw"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hrn24"]
+load_path = "res://.godot/imported/Black_huina.jpg-12ae7b486f7ee5315cc54ed2164fb329.ctex"
 
 [node name="BG_Menu" type="Node2D" unique_id=503310466]
 
@@ -8,4 +9,4 @@
 
 [node name="BlackHuina" type="Sprite2D" parent="Parallax2D" unique_id=1843297299]
 position = Vector2(576, 324)
-texture = ExtResource("1_xagfw")
+texture = SubResource("CompressedTexture2D_hrn24")
