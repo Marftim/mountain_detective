@@ -13,7 +13,7 @@ config_version=5
 config/name="Альфа"
 run/main_scene="uid://d36bs0t6vtfff"
 config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://fb3abavnmsnd"
 
 [display]
 
