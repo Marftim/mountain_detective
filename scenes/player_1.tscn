@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://r17hfvbpxhpg"]
 
 [ext_resource type="Script" uid="uid://c1iivg27e38k5" path="res://scenes/player_1.gd" id="1_gneq0"]
-[ext_resource type="Texture2D" uid="uid://bytt8ku3w4o4w" path="res://techures/tile.jpg" id="1_rfmnd"]
+[ext_resource type="Texture2D" uid="uid://bbgoni7o2he60" path="res://techures/tile.png" id="2_gneq0"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g4v7s"]
 radius = 31.0
@@ -11,7 +11,7 @@ height = 62.0
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_rfmnd")
+"texture": ExtResource("2_gneq0")
 }],
 "loop": 1,
 "name": &"default",

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dawk00bnhj2gq"]
 
-[ext_resource type="Texture2D" uid="uid://ct4thcsm4y78" path="res://techures/Black_huina.jpg" id="1_xagfw"]
+[ext_resource type="Texture2D" uid="uid://cpmodvhpdcrqt" path="res://techures/Black_huina.png" id="1_xagfw"]
 
 [node name="BG_Menu" type="Node2D" unique_id=503310466]
 
