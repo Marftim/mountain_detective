@@ -27,7 +27,7 @@ scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_yf5fn")
 animation = &"run"
 autoplay = "run"
-frame_progress = 0.084404066
+frame_progress = 0.19088371
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=387447483]
 zoom = Vector2(1.5, 1.5)
