@@ -1,19 +1,17 @@
 [gd_scene format=3 uid="uid://r17hfvbpxhpg"]
 
 [ext_resource type="Script" uid="uid://c1iivg27e38k5" path="res://scenes/player_1.gd" id="1_gneq0"]
+[ext_resource type="Texture2D" uid="uid://bbgoni7o2he60" path="res://techures/tile.png" id="2_gneq0"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g4v7s"]
 radius = 31.0
 height = 62.0
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rfmnd"]
-load_path = "res://.godot/imported/tile.jpg-62b2d5b023ea17411f9df53a6eea6bcd.ctex"
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_yf5fn"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_rfmnd")
+"texture": ExtResource("2_gneq0")
 }],
 "loop": 1,
 "name": &"default",
