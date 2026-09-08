@@ -3,10 +3,10 @@
 [node name="Settings" type="Node2D" unique_id=1266501900]
 
 [node name="Label" type="Label" parent="." unique_id=646735866]
-offset_left = 433.0
-offset_top = 252.0
-offset_right = 720.0
-offset_bottom = 357.0
+offset_left = 193.0
+offset_top = 140.0
+offset_right = 480.0
+offset_bottom = 245.0
 text = "А что ты хотел тут увидеть?
 
 Это заглушка"

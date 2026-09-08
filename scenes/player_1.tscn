@@ -23,14 +23,14 @@ script = ExtResource("1_gneq0")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1919967752]
 position = Vector2(0, 0.9999924)
-scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_yf5fn")
 animation = &"run"
 autoplay = "run"
-frame_progress = 0.5760927
+frame_progress = 0.5761062
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=387447483]
 zoom = Vector2(1.5, 1.5)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=550818280]
-polygon = PackedVector2Array(0, -12, 14, -22, 25, -14, 33, -5, 37, 22, 36, 66, -30, 65, -30, 53)
+position = Vector2(-1, 0)
+polygon = PackedVector2Array(5, -7, 12, -7, 18, 7, 17, 18, 17, 33, -16, 32, -5, 6)
